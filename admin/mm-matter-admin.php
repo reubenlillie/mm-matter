@@ -55,8 +55,3 @@ require_once( plugin_dir_path( __FILE__ ) . 'mm-matter-post-types.php' );
 	 * @link https://developer.wordpress.org/reference/hooks/init/
 	 */
 	add_action( 'init', 'action_mm_matter_register_back_matter_cpt', 0 );
-
-/**
- * Completes the registration for MM Matter's custom taxonomies.
- */
-require_once( plugin_dir_path( __FILE__ ) . 'mm-matter-taxonomies.php' );
