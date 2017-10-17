@@ -1,22 +1,36 @@
-# MM Breadcrumbs
+# MM Matter
 
-Make breadcrumbs for [ManualMaker][mm].
+Make matter for [ManualMaker][mm]—front and back.
 
 ## Description
 
-MM Breadcrumbs is an extension plugin for ManualMaker to leverage the power of [Justin Tadlock's][jt] seminal [Breadcrumb Trail][bt] plugin.
+MM Matter is an extension plugin for ManualMaker 
+to separate the supporting parts of the manual from the `paragraph` text proper.
+In publishing, these other parts are called "front matter" and "back matter"
+and usually include information about, 
+in the case of front matter, the book's title, publisher, copyright, 
+and may offer some prefatory remarks,
+or, in the case of back matter, 
+sources, appendixes, and other documentation.
 
-By default MM Breadcrumbs adds breadcrumb trails to `paragraph` archive and single pages.
+For more inforation about what you could include as either front or back matter,
+see the [_Chicago Manual of Style_][cmos] ch. 1.
 
-Like ManualMaker, MM Breadcrumbs itself is also [extensible][extend].
+By default MM Matter adds post types for 
+`front_matter` and `back_matter` respectively,
+also assigning the default ManualMaker 
+`section` and `index_locator` taxonomies to both post types.
+
+Like ManualMaker, MM Matter itself is also [extensible][extend].
 
 ## License
 
-ManualMaker is licensed under the [GNU General Public License, version 2 or later](https://www.gnu.org/licenses/old-licenses/gpl-2.0.en.html).
+MM Matter is licensed under the [GNU General Public License, version 2 or later][gpl].
 
-&copy; 2017 [Reuben L. Lillie](https://reubenlillie.com/about/ "About Reuben")
+&copy; 2017 [The Church of the Nazarene, Inc.][cotn]
 
-[mm]: https://github.com/reubenlillie/manualmaker "View ManualMaker plugin on GitHub"
-[jt]: http://justintadlock.com/ "Justin's website"
-[bt]: https://github.com/justintadlock/breadcrumb-trail "View Justin Tadlock's Breadcrumb Trail plugin on GitHub"
 [extend]: https://developer.wordpress.org/plugins/hooks/custom-hooks/ "Learn more about Custom Hooks in the WordPress Plugin Handbook"
+[cmos]: http://www.chicagomanualofstyle.org/book/ed17/part1/ch01/toc.html "View the CHICAGO MANUAL OF SYLE online"
+[cotn]: http://nazarene.org/ "Visit the offical website of the internaitonal Church of the Nazarene"
+[gpl]: https://www.gnu.org/licenses/old-licenses/gpl-2.0.en.html "View the license"
+[mm]: https://github.com/reubenlillie/manualmaker "View ManualMaker plugin on GitHub"
