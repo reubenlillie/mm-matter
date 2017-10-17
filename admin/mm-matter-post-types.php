@@ -76,6 +76,7 @@ function action_mm_matter_register_front_matter_cpt() {
                                         'editor',
                                         'excerpt',
                                         'page-attributes',
+                                        'post-formats',
                                         'revisions',
                                     ),
         'taxonomies'            => array(
@@ -175,6 +176,7 @@ function action_mm_matter_register_back_matter_cpt() {
                                         'editor',
                                         'excerpt',
                                         'page-attributes',
+                                        'post-formats',
                                         'revisions',
                                     ),
         'taxonomies'            => array(
